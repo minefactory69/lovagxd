@@ -44,7 +44,7 @@ bot.on("message", async message => { //bot on kezdete
     let args = messageArray.slice(1);
  
     //////////////////////////////////////
-    if(cmd === `${prefix}fortnie`){
+    if(cmd === `${prefix}fortnite`){
         let embed = new Discord.RichEmbed()
         .setTitle("Magyar Fortnite Közösség")
         .addField("Link:", "https://discord.gg/fvYWhXp")
